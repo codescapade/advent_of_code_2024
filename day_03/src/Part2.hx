@@ -2,9 +2,9 @@ package;
 
 import Part1.getMultipliedP1;
 
-function getMultipliedP2(content: String): Int {
+function getMultipliedP2(input: String): Int {
   // Split by don't().
-  final dontSplit = content.split('don\'t()');
+  final dontSplit = input.split('don\'t()');
 
   // first part before don't() is do so we get the mul().
   final first = dontSplit.shift();

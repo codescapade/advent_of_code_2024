@@ -7,10 +7,10 @@ import Part1.getMultipliedP1;
 import sys.io.File;
 
 function main() {
-  final content = File.getContent('day_03/content/input.txt');
-  final multipliedP1 = getMultipliedP1(content);
+  final input = File.getContent('day_03/input/input.txt');
+  final multipliedP1 = getMultipliedP1(input);
   trace(multipliedP1);
 
-  final multipliedP2 = getMultipliedP2(content);
+  final multipliedP2 = getMultipliedP2(input);
   trace(multipliedP2);
 }

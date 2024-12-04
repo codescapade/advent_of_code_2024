@@ -7,7 +7,7 @@ import Part1.getDistance;
 import Utils.readInput;
 
 function main() {
-  final lists = readInput('day_01/content/input.txt');
+  final lists = readInput('day_01/input/input.txt');
   final distance = getDistance(lists);
   trace('distance: ${distance}');
 
