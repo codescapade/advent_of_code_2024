@@ -3,6 +3,7 @@
     ["hxml/day_01.hxml"],
     ["hxml/day_02.hxml"],
     ["hxml/day_03.hxml"],
-    ["hxml/day_04.hxml"]
+    ["hxml/day_04.hxml"],
+    ["hxml/day_05.hxml"]
   ],
 }
